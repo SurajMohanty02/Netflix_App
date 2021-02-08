@@ -1,0 +1,53 @@
+.banner {
+  height: 500px;
+  margin-top: 57.5px;
+  object-fit: contain;
+  min-width: 400px;
+}
+.banner__poster {
+  color: white;
+
+  padding-left: 0;
+  padding-top: 100px;
+}
+.button {
+  margin-left: 15px;
+}
+#btn {
+  margin-right: 5px;
+  padding: 7px 20px;
+  background-color: transparent;
+  width: fit-content;
+  color: white;
+}
+#btn:hover {
+  background-color: transparent;
+}
+.left {
+  text-align: left;
+  display: inline;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-left: 20px;
+}
+.banner__poster > h2 {
+  width: 50rem;
+  max-width: 340px;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.banner > .fade {
+  height: 11rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(29, 25, 25, 0.61),
+    rgb(151, 32, 32)
+  );
+}
+.text_center {
+  text-align: center;
+}

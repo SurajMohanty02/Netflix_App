@@ -1,0 +1,38 @@
+.netflix {
+  object-fit: contain;
+  color: white;
+}
+.poster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  min-width: 320px;
+}
+.poster::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+  height: 25vh;
+  width: 21vw;
+  margin: 5px;
+  transition: transform 450ms;
+  cursor: pointer;
+  filter: saturate(2);
+}
+.img:hover {
+  transform: scale(1.05);
+}
+body {
+  background-color: #181818;
+}
+.largerow {
+  min-width: 250px;
+}
+h2 {
+  margin-left: 28px;
+}
+.color {
+  background-color: white;
+}

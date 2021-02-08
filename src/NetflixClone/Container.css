@@ -1,0 +1,14 @@
+.App {
+  text-align: left;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
